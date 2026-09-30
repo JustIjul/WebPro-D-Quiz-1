@@ -1,0 +1,23 @@
+/* Custom CSS Sederhana */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #0d6efd, #0dcaf0);
+  color: white;
+  padding: 60px 0;
+  border-radius: 0 0 15px 15px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
